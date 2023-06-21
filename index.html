@@ -25,9 +25,6 @@
       background-color: transparent;
     }
 
-
-      /* Rest of the CSS code remains the same */
-
       /* Add hover animation on navbar items */
       .navbar-inverse .navbar-nav > li > a:hover,
       .navbar-inverse .navbar-nav > li > a:focus {
@@ -42,10 +39,9 @@
         color: #ffffff !important;
       }
       .carousel {
-        margin-top: -25px; /* Adjust this value as needed */
+        margin-top: -25px;
       }
 
-      /* Rest of the CSS code remains the same */
       .fade-carousel .slides .slide-1 {
         background-image: url(burger.jpg);
       }
@@ -581,7 +577,7 @@
     $(document).ready(function() {
       // When the "Log In / Sign Up" button is clicked
       $("#login-signup-btn").click(function(event) {
-        event.preventDefault(); // Prevent the default behavior of the link
+        event.preventDefault();
   
         // Show the login modal
         $("#loginModal").modal("show");
